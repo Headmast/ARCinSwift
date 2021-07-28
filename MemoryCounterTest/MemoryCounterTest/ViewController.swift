@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         localPerson = nil
         print("Local strong link: \(String(describing: localPerson?.name))")
-        print("Global weak link: \(String(describing: weakLocalPerson?.name))")
+        print("Local weak link: \(String(describing: weakLocalPerson?.name))")
     }
 }
 
